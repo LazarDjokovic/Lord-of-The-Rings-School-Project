@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rssXSL.xsl"?>
+	<rss version="2.0">
+		<channel>
+				<item>
+					<title>How the story beggins</title>
+					<link>http://lordoftherings.comli.com/index.html</link>
+					<description>Here you can find out how the story beggins</description>
+				</item>
+				<item>
+					<title>Part I</title>
+					<link>http://lordoftherings.comli.com/part1.html</link>
+					<description>Find out more about part I</description>
+				</item>
+				<item>
+					<title>Part II</title>
+					<link>http://lordoftherings.comli.com/part2.html</link>
+					<description>Find out more about part II</description>
+				</item>
+				<item>
+					<title>Part III</title>
+					<link>http://lordoftherings.comli.com/part3.html</link>
+					<description>Find out more about part III</description>
+				</item>
+				<item>
+					<title>About actors</title>
+					<link>http://lordoftherings.comli.com/oglumcima.html</link>
+					<description>Informations about actors</description>
+				</item> 
+		</channel>
+	</rss>

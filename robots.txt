@@ -1,0 +1,11 @@
+User-agent: Google
+Disallow:
+
+User-agent: Marko M. Spasojevic
+Disallow:
+
+User-agent: Nenad Kojic
+Disallow:
+
+User-agent: *
+Disallow: /

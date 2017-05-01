@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+	
+	
+	
+		<title>Gallery | Lord of the rings</title>
+		
+		<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	 
+	<script type="text/javascript" src="jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			
+		});
+	</script>
+		
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="shortcut icon" href="slike/logomala.jpg"/>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script language="JavaScript" src="mainJS.js"></script>
+		
+		
+		<meta name="author" content="Lazar Đoković"/>
+		<meta name="description" content="The Lord of the Rings is an epic high-fantasy novel written by English author 
+		J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually 
+		developed into a much larger work."/>
+		<meta name="keywords" content="Lord of the rings, lotr, J. R. R. Tolkien, Gallery, Art,  Gandalf, Frodo, Aragorn, Gimli, Legolas,
+		middle earth"/>
+		
+		
+		
+	</head>
+	
+	
+	
+	<body>
+		<div id="prikazuje">
+			<img src="slike/zatvori.jpg" width="20px" height="20px" id="zatvori"/>
+			<div id="upozorenje"></div>	
+			<div class="naslov" id="naslovid"></div>
+			<div id="pretragaTekst"></div>
+		</div>
+		<div id="header">
+			<div id="levo"><a href="index.html" title="logo"><div class="clickable"></div></a></div>
+			<div id="desno"><a href="index.html" title="logo"><div class="clickable"></div></a></div>
+			 
+		</div>
+		
+		<div id="menu2">
+		<div id="meni">
+			<ul>
+				<li><a href="index.html" title="home">HOME</a></li>
+				<li><a href="galerija.html" title="gallery">GALLERY</a></li>
+				<li id="movies"><a href="index.html">MOVIES</a>
+					<ul>
+						<li><a href="part1.html" title="part I">PART &nbsp;I</a></li>
+						<li><a href="part2.html" title="part II">PART &nbsp;II</a></li>
+						<li><a href="part3.html" title="part III">PART &nbsp;III</a></li>
+					</ul>
+				</li>
+			    <li><a href="">ABOUT</a>
+					<ul>
+						<li><a href="omeni.html" title="about me">ABOUT &nbsp;ME</a></li>
+						<li><a href="oglumcima.html" title="about actors">ABOUT &nbsp;ACTORS</a></li>
+						<li><a href="dokumentacija.pdf" title="documentation">DOKUMENTACIJA</a></li>
+					</ul>
+				</li>
+				<li><a href="kontakt.html" title="contact">CONTACT</a></li>
+		    </ul>
+					
+		</div><div id="pretraga">
+				<input type="text" placeholder="Search for parts..." name="search" size="15" id="search"/> 
+			<input type="button" class="button" value="Search" id="search_button" onClick="pretraga()"/>
+			<p>(e.g. part 1, part 2, part 3)</p>
+			</div>	
+		</div>
+		
+		<div class="cisti"></div>
+		
+		
+		
+		
+		
+		
+		<div id="sredina">
+		
+			<div id="galerija_sredina">
+				
+			
+			<div id="sadrzaj">
+				<h1>Lord of the rings: ART</h1>
+				 <div id="content">
+					<p>
+						<a rel="example_group" href="slike/galerija/velika1.jpg" title="picture 1"><img class="galerija" alt="" src="slike/galerija/mala1.jpg"  title="picture 1" alt="picture 1"/></a>
+						<a rel="example_group" href="slike/galerija/velika2.jpg" title="picture 2"><img class="galerija" alt="" src="slike/galerija/mala2.jpg"  title="picture 2" alt="picture 2"/></a>
+						<a rel="example_group" href="slike/galerija/velika3.jpg" title="picture 3"><img class="galerija" alt="" src="slike/galerija/mala3.jpg"  title="picture 3" alt="picture 3"/></a>
+						<a rel="example_group" href="slike/galerija/velika4.jpg" title="picture 4"><img class="galerija" alt="" src="slike/galerija/mala4.jpg"  title="picture 4" alt="picture 4"/></a>
+						<a rel="example_group" href="slike/galerija/velika5.jpg" title="picture 5"><img class="galerija" alt="" src="slike/galerija/mala5.jpg"  title="picture 5" alt="picture 5"/></a>
+						<a rel="example_group" href="slike/galerija/velika6.jpg" title="picture 6"><img class="galerija" alt="" src="slike/galerija/mala6.jpg"  title="picture 6" alt="picture 6"/></a>
+						<a rel="example_group" href="slike/galerija/velika7.jpg" title="picture 7"><img class="galerija" alt="" src="slike/galerija/mala7.jpg"  title="picture 7" alt="picture 7"/></a>
+						<a rel="example_group" href="slike/galerija/velika8.jpg" title="picture 8"><img id="galerijaSlika"class="last" alt="" src="slike/galerija/mala8.jpg" title="picture 8" alt="picture 8"/></a>
+					</p>
+				</div>
+			</div>
+				
+			</div>
+		
+		</div>
+		<div class="cisti"></div>
+		
+		
+		
+		
+		
+		
+		<div id="footer">
+		
+		<div id="mreze">
+				<a href="https://www.facebook.com/"><img src="slike/mreze/fb.png" class="" id="fb" width="40px" height="40px" title="facebook" alt="facebook"/></a>
+				<a href="https://twitter.com/"><img src="slike/mreze/twitter.png" class="" id="twitter" width="40px" height="40px" title="twitter" alt="twitter"/></a>
+				</br>
+				<a href="rss.xml"><img src="slike/mreze/rss.png" class="" id="rss" width="40px" height="40px" title="rss" alt="rss"/></a>
+				<a href="https://www.youtube.com/"><img src="slike/mreze/youtube.png" class="" id="youtube" width="40px" height="40px" title="youtube" alt="youtube"/></a>
+				<br/>
+				<br/>
+				<a href=""><img src="slike/strelica.png" class="" id="strelica" width="40px" height="40px"  title="go to top" alt="go to top"/></a>
+			</div>
+			<div id="sredina2">
+			<img src="slike/mac.jpg" class="" id="mac" width="70px" height="150px" title="sword" alt="sword"/>
+			<div id="meni2">
+				<ul>
+					<li><a href="index.html" title="home">HOME</a></li>
+					<li><a href="galerija.html" title="gallery">GALLERY</a></li>
+					<li><a href="sitemap.xml" title="sitemap">Sitemap</a></li>
+					<li><a href="rss.xml" title="rss">RSS</a></li>
+				</ul>
+			</div>
+			<img src="slike/sekira.jpg" class="" id="sekira" width="70px" height="150px" title="axe" alt="axe"/>
+			<div id="filmovi">
+				<ul>
+					<li><a href="index.html">MOVIES</a></li>
+					<li><a href="part1.html" title="part I">&nbsp;&nbsp;Part I</a></li>
+					<li><a href="part2.html" title="part II">&nbsp;&nbsp;Part II</a></li>
+					<li><a href="part3.html" title="part III">&nbsp;&nbsp;Part III</a></li>
+				</ul>
+			</div>
+			<img src="slike/sekira.jpg" class="" id="sekira2" width="70px" height="150px" title="axe" alt="axe"/>
+			<div id="omeni">
+				<ul>
+					<li><a href="index.html">ABOUT</a></li>
+					<li><a href="omeni.html" title="about me">&nbsp;&nbsp;About me</a></li>
+					<li><a href="oglumcima.html" title="about actors">&nbsp;&nbsp;About actors</a></li>
+					<li><a href="dokumentacija.pdf" title="documentation">&nbsp;&nbsp;Dokumentacija</a></li>
+					<li><a href="kontakt.html" title="contact">CONTACT</a></li>
+				</ul>
+			</div>
+			<img src="slike/mac.jpg" class="" id="mac2" width="70px" height="150px" title="sword" alt="sword"/>
+			</div>
+			
+			
+			<div class="cisti"></div>
+			<div id="copyright">
+				<p>Copyrights &copy; All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp;Designed by: <a href="omeni.html">Lazar Djoković</a></p>
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>
+</html>

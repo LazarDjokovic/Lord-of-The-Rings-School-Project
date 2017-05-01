@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemapXSL.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<url>
+			<page>Home</page>
+			<loc>http://lordoftherings.comli.com/index.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>1.00</priority>
+		</url>
+		<url><page>Gallery</page>
+			<loc>http://lordoftherings.comli.com/galerija.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>1.00</priority>
+		</url>
+		<url><page>Part I</page>
+			<loc>http://lordoftherings.comli.com/part1.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>0.9</priority>
+		</url>
+		<url><page>Part II</page>
+			<loc>http://lordoftherings.comli.com/part2.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>0.9</priority>
+		</url>
+		<url><page>Part III</page>
+			<loc>http://lordoftherings.comli.com/part3.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>0.9</priority>
+		</url>
+		<url><page>About me</page>
+			<loc>http://lordoftherings.comli.com/omeni.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>yearly</changefreq>
+			<priority>0.8</priority>
+		</url>
+		<url><page>About actors</page>
+			<loc>http://lordoftherings.comli.com/oglumcima.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>monthly</changefreq>
+			<priority>1.00</priority>
+		</url>
+		<url><page>Contact</page>
+			<loc>http://lordoftherings.comli.com/kontakt.html</loc>
+			<lastmod>2016-4-8</lastmod>
+			<changefreq>monthly</changefreq>
+			<priority>1.00</priority>
+		</url>
+</urlset>

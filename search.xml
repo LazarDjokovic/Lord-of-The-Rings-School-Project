@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+	<movie> 
+		<name>part 1</name>
+		<naslov1>The Lord of the Rings: The Fellowship of the Ring</naslov1> 
+		<naslov2>How the story beggins</naslov2> 
+		<tekst1>In the Second Age of Middle Earth, the Dark Lord Sauron forges the One Ring in Mount Doom to conquer all. 
+				An army of men and elves battle Sauron’s forces in Mordor, where King Isildur of Gondor slays Sauron,
+				but the evil influence of the Ring corrupts Isildur, preventing him from destroying it in Mount Doom. 
+				Isildur is later killed by Orcs, and the Ring is lost, found and owned by Gollum for five centuries. 
+				The Ring is then found by a Hobbit named Bilbo Baggins.
+		</tekst1>
+		<tekst2>Click here to find out more</tekst2>
+		<link>http://lordoftherings.comli.com/part1.html</link>
+	</movie>
+	<movie> 
+		<name>part 2</name>
+		<naslov1>The Lord of the Rings: The Two Towers</naslov1> 
+		<naslov2>How the story beggins</naslov2> 
+		<tekst1>Frodo Baggins and Samwise Gamgee continue their journey to Mordor to destroy the One Ring by throwing 
+				it into Mount Doom. They are attacked in the night by Gollum, former owner of the Ring, but they capture 
+				him. Sympathising with Gollum for their shared burden, Frodo asks Gollum to lead them safely to Mordor, 
+				despite Sam’s objections. Meanwhile, Aragorn, Legolas, and Gimli pursue the Uruk-hai who kidnapped their 
+				friends Merry and Pippin. The Uruk-hai are slaughtered by the Rohirrim army of Rohan, but the two Hobbits 
+				escape into Fangorn Forest where they meet the Ent Treebeard.
+		</tekst1>
+		<tekst2>Click  here to find out more</tekst2>
+		<link>http://lordoftherings.comli.com/part2.html</link>
+	</movie>
+	<movie> 
+		<name>part 3</name>
+		<naslov1>The Lord of the Rings: The Return of the King</naslov1> 
+		<naslov2>How the story beggins</naslov2> 
+		<tekst1>Gandalf leads Aragorn, Legolas, Gimli, and King Théoden to Isengard where they reunite with Merry and 
+				Pippin, who helped the Ents destroy Saruman's forces. With Saruman himself defeated, Gandalf retrieves 
+				Saruman's palantír. Overcome by curiosity, Pippin steals a glance into the seeing-stone, and suffers an 
+				immediate mental attack from Sauron himself. From what Pippin was able to recount, Gandalf deduces Sauron 
+				will attack Gondor's capital Minas Tirith, so he rides ahead to warn them, and takes Pippin with him 
+				because Saron thinks Pippin to be the ring bearer. 
+		</tekst1>
+		<tekst2>Click  here  to find out more.</tekst2>
+		<link>http://lordoftherings.comli.com/part3.html</link>
+	</movie>
+	
+</movies>
